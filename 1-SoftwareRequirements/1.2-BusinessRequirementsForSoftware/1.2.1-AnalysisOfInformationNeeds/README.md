@@ -12,16 +12,16 @@
   <tr>
          <td>Сон</td>
          <td>Довго</td>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
    </tr>
    <tr>
          <td>Безпека праці</td>
          <td>Неможливо</td>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
    </tr>
    <tr>
          <td>Створення живопису</td>
