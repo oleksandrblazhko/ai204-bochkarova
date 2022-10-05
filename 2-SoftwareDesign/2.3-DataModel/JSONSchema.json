@@ -12,7 +12,7 @@
           "type": "string"
         },
         "assessment": {
-          "type": "string"
+          "type": "number"
         },
         "sleep": {
           "type": "array",
