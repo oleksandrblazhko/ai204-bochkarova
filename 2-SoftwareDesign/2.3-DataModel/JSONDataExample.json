@@ -1,0 +1,13 @@
+{
+	"user": {
+        "mail":"kirribochkaryova@gmail.com",
+        "password":"password",
+        "assessment": 6.86,
+        "sleep" : [{
+          	"Date": "05.10.2022",
+            "Duration": 9.2,
+            "Health": "Міцний сон, виспався",
+            "Caffeine":true
+        }]
+    }
+}

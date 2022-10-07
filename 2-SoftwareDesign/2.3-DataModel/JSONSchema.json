@@ -1,0 +1,57 @@
+{
+  "description": "Опис предметної області ПП",
+  "type": "object",
+  "properties": {
+    "user": {
+      "type": "object",
+      "properties": {
+        "mail": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "assessment": {
+          "type": "number"
+        },
+        "sleep": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "Date": {
+                  "type": "string"
+                },
+                "Duration": {
+                  "type": "number"
+                },
+                "Health": {
+                  "type": "string"
+                },
+                "Caffeine": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "Date",
+                "Duration",
+                "Health",
+                "Caffeine"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "mail",
+        "password",
+        "assessment",
+        "sleep"
+      ]
+    }
+  },
+  "required": [
+    "user"
+  ]
+}
