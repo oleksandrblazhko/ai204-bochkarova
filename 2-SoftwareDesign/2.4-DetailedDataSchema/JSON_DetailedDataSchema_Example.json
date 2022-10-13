@@ -1,5 +1,5 @@
 {
-	"description": "Опис предметної області ПП",
+"description": "Опис предметної області ПП",
     "type": "object",
     "properties": {
     	"user": {
