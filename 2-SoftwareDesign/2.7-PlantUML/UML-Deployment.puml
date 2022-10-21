@@ -10,11 +10,11 @@ node "<<Смартфон>>" as phone {
   }
 }
 
-interface (Сенсорний екран)
+interface "Сенсорний екран"
 
-(Сенсорний екран) -- phone
+"Сенсорний екран" -- phone
 
-interface (Мікрофон)
+interface "Мікрофон"
 
-(Мікрофон) -- phone
+"Мікрофон" -- phone
 @enduml
