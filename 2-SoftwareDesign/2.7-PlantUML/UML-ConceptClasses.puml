@@ -1,0 +1,14 @@
+@startuml
+
+title Concept of Classes Diagram 
+
+Class Sleep
+Class User
+Class Review
+
+Sleep"*" <-- "1"User : send
+
+Sleep"*" --o "1"User
+
+Review"*" <-- "1"User : send
+@enduml

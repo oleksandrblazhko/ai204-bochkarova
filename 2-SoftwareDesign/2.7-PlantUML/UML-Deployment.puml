@@ -1,0 +1,20 @@
+@startuml
+
+title Deployment
+left to right direction
+skinparam componentStyle uml1
+
+node "<<Смартфон>>" as phone {
+  node "<<OS Android>>" {
+    component [.apk]
+  }
+}
+
+interface "Сенсорний екран"
+
+"Сенсорний екран" -- phone
+
+interface "Мікрофон"
+
+"Мікрофон" -- phone
+@enduml

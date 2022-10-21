@@ -1,0 +1,17 @@
+@startuml 
+title UseCase Diagram
+left to right direction
+skinparam packageStyle rect
+
+actor User
+actor Employee
+
+Employee -|> User
+
+rectangle Software {
+  User --> (User Authorization) 
+  Employee --> (Analyze reviews)
+  (Analyze reviews) ..> (User Authorization) : <<include>>
+  (Enter data about sleep) ..> (User Authorization) : <<include>>
+}
+@enduml
