@@ -1,0 +1,19 @@
+@startuml
+
+title Activity Diagram 
+
+start
+
+:User enters sleep data; 
+:Program checks sleep data;
+
+if (Data entered correctly?) then (yes)
+  :Program processes the data;
+  :Program gives recommendations;
+else (no)
+  :Input error, please try again;
+endif
+
+stop
+
+@enduml
