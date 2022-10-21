@@ -1,1 +1,1 @@
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://https://raw.githubusercontent.com/oleksandrblazhko/ai204-bochkarova/laboratory-work-7/2-SoftwareDesign/2.7-PlantUML/UML-UseCase.puml)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/oleksandrblazhko/ai204-bochkarova/laboratory-work-7/2-SoftwareDesign/2.7-PlantUML/UML-UseCase.puml)
