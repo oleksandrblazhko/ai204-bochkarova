@@ -1,0 +1,60 @@
+{
+"description": "Опис предметної області ПП",
+    "type": "object",
+    "properties": {
+    	"user": {
+          	"description":"Користувач",
+      		"type": "object",
+      		"properties": { 
+                "mail" : {
+                  "description":"Пошта користувача",
+                  "type": "string",
+  	  			  "maxLength": 64,
+      			  "format" : "email",
+                  "pattern": "^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$"
+      			},
+      			"password" : {
+                  "description":"Пароль користувача",
+                   "type": "string",
+  	  			   "maxLength": 64,
+                   "pattern": "^[a-zA-Z0-9_-]+$"
+      			},
+                "sleep_score" : {
+                   "description":"Загальна оцінка сну",
+                   "type": "number",
+                   "minimum": 0,
+                   "maximum": 10
+              
+                },
+      			"sleep" : {
+                "description":"Сон",
+              	"type": "object",
+              	"properties": {
+                    "date": {
+                      "description":"Дата",
+                          "type": "string",
+                          "format" : "date"      		  		
+			        },
+              		"duration": {
+                      "description":"Кількість сну",
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 24 
+      		  		},
+                    "health": {
+                      "description":"Самопочуття під час сну",
+                          "type": "string",
+                          "maxLength": 300
+                    },
+                    "caffeine":{
+                      "description":"Чи приймав продукти, що містять кофеїн заздалегіть",
+                        "type": "boolean"
+                    }
+             	 }, 
+             	 "required": ["date","duration", "health","caffeine"]
+      			}
+      		}, 
+        	"required": ["mail", "password", "sleep_score", "sleep"]
+      	}
+    }
+}
