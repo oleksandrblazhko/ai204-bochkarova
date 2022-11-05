@@ -7,6 +7,10 @@ const User = new Schema({
     sleep_score: int
 });
 
+const Dev = new Schema({
+    user: User.id
+});
+
 const Sleep = new Schema({
     id: int,
     user: User.id,
@@ -15,4 +19,10 @@ const Sleep = new Schema({
     coffeine: Boolean
 })
 
-module.export = User, Sleep
+const Review = new Schema({
+    id: int,
+    rating: int,
+    comment: String
+})
+
+module.export = User, Sleep, Review, Dev
